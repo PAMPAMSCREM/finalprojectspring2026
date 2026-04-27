@@ -3,6 +3,9 @@
 * {
 	font-family: Arial;
 }
+.row {
+      display: flex; /* THIS makes them side by side */
+    }
 
 .col-8 {
 	background-color: #ffe6ff; /* Sets a light background */
