@@ -5,14 +5,14 @@
 }
 
 .col-8 {
-	background-color: #f8f9fa; /* Sets a light background */
-    border: 1px solid #dee2e6; /* Adds a border */
+	background-color: #ffe6ff; /* Sets a light background */
+    border: 2px solid #ff00d9; /* Adds a border */
     padding: 20px;
 }
 
 .col-4 {
-	background-color: #f8f9fa; /* Sets a light background */
-    border: 1px solid #dee2e6; /* Adds a border */
+	background-color: #ffe6ff; /* Sets a light background */
+    border: 1px solid #ff00d9; /* Adds a border */
     padding: 20px;
 }
 
