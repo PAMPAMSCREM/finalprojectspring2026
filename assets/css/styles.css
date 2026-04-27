@@ -1,8 +1,40 @@
 /* styles.css */
-
+/*
 * {
 	font-family: Arial;
 }
+*/
+
+/* FONTS */
+p {
+	font-family: "Google Sans Flex", sans-serif;
+	font-size: 12px;
+}
+
+h1 {
+	font-family: "Rock Salt";
+	font-size: 40px;
+}
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.google-sans-flex-<uniquifier> {
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+}
+/* FONTS END */
+
 .row {
 	display: flex; /* helps with "side by side" */
 	flex-wrap: nowrap; /* So it doesn't stack, keeps it side by side! */
