@@ -8,12 +8,14 @@
 	background-color: #ffe6ff; /* Sets a light background */
     border: 2px solid #ff00d9; /* Adds a border */
     padding: 20px;
+	margin-left: 30px;
 }
 
 .col-4 {
 	background-color: #ffe6ff; /* Sets a light background */
     border: 1px solid #ff00d9; /* Adds a border */
     padding: 20px;
+	margin-right: 30px;
 }
 
 * {box-sizing:border-box}
