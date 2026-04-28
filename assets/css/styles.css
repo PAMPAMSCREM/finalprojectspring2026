@@ -87,7 +87,7 @@ h1 {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: rgb(245, 243, 245); /*WHITE SMOKE*/
+  color: rgb(189, 212, 231); /*PALE SKY*/
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -103,7 +103,7 @@ h1 {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgb(48, 43, 39); /*GRAPHITE*/
+  background-color: rgb(33, 34, 39); /*SHADOW GREY*/
 }
 
 /* Caption text */
@@ -132,14 +132,14 @@ h1 {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: rgb(245, 243, 245); /*WHITE SMOKE*/
+  background-color: rgb(134, 147, 171); /*LAVENDER GREY*/
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: rgb(27, 38, 79); /*SPACE INDIGO*/
+  background-color: rgb(99, 112, 116); /*DIM GREY*/
 }
 
 /* Fading animation */
@@ -156,7 +156,7 @@ h1 {
 
 /*TOP NAVIGATION BAR*/
 .topnav {
-  background-color: rgb(87, 108, 168); /*SMART BLUE */
+  background-color: rgb(189, 212, 231); /*PALE SKY*/
   overflow: hidden;
 }
 
@@ -173,7 +173,7 @@ h1 {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(39, 70, 144); /*FRENCH BLUE*/
+  background-color: rgb(33, 34, 39); /*SHADOW GREY*/
   color: rgb(245, 243, 245); /*WHITE SMOKE*/
 }
 
