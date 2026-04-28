@@ -156,7 +156,7 @@ h1 {
 
 /*TOP NAVIGATION BAR*/
 .topnav {
-  background-color: rgb(99, 112, 116); /*DIM GREY*/
+  background-color: rgb(33, 34, 39); /*SHADOW GREY*/
   overflow: hidden;
 }
 
@@ -173,8 +173,8 @@ h1 {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(33, 34, 39); /*SHADOW GREY*/
-  color: rgb(245, 243, 245); /*WHITE SMOKE*/
+  background-color: rgb(189, 212, 231); /*PALE SKY*/
+  color: rgb(33, 34, 39); /*SHADOW GREY*/
 }
 
 /* Add a color to the active/current link */
