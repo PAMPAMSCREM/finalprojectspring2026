@@ -8,7 +8,7 @@
 /* FONTS */
 
 body {
-	background-image: url("../img/paperbackground.jpg");
+	background-color: rgb(245, 243, 245);
 }
 p {
 	font-family: "Google Sans Flex", sans-serif;
@@ -161,12 +161,13 @@ h1 {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+	font-family: "Google Sans Flex", sans serif;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: rbg(39, 70, 144);
+  color: rgb(245, 243, 245);
 }
 
 /* Add a color to the active/current link */
