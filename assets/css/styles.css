@@ -175,6 +175,7 @@ h1 {
 .topnav a:hover {
   background-color: rgb(189, 212, 231); /*PALE SKY*/
   color: rgb(33, 34, 39); /*SHADOW GREY*/
+	border-radius: 20px /*MAKES ROUNDED EDGES*/
 }
 
 /* Add a color to the active/current link */
