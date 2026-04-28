@@ -6,6 +6,10 @@
 */
 
 /* FONTS */
+
+body {
+	background-image: url("../img/paperbackground.jpg");
+}
 p {
 	font-family: "Google Sans Flex", sans-serif;
 	font-size: 12px;
