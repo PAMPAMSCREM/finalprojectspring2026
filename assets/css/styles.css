@@ -96,7 +96,7 @@ h1 {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgb(39, 70, 144);
 }
 
 /* Caption text */
@@ -132,7 +132,7 @@ h1 {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: rgb(27, 38, 79);
 }
 
 /* Fading animation */
