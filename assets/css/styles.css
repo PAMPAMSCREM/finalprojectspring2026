@@ -8,23 +8,23 @@
 /* FONTS */
 
 body {
-	background-color: rgb(189, 212, 231); /*PALE SKY*/
+	background-color: rgb(33, 34, 39); /*SHADOW GREY*/
 }
 
 title {
-	font-color: rgb(048, 43, 39);
+	font-color: rgb(189, 212, 231); /*PALE SKY*/
 }
 
 p {
 	font-family: "Google Sans Flex", sans-serif;
 	font-size: 12px;
-	color: rgb(48, 43, 39);
+	color: white;
 }
 
 h1 {
 	font-family: "Rock Salt";
 	font-size: 40px;
-	color: rgb(48, 43, 39);
+	color: white;
 }
 
 .rock-salt-regular {
