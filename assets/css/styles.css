@@ -173,7 +173,7 @@ h1 {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rbg(39, 70, 144); /*FRENCH BLUE*/
+  background-color: rgb(39, 70, 144); /*FRENCH BLUE*/
   color: rgb(245, 243, 245); /*WHITE SMOKE*/
 }
 
