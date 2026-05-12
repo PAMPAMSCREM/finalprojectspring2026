@@ -184,3 +184,25 @@ h1 {
   color: white;
 }
 /* TOP NAVIGATION BAR END */
+
+.icon {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	min-width: 40px;
+	max-width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-color: white;
+	color: var(--defaultBackground);
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 10px;
+	color: white;
+	font-weight: bold;
+}
