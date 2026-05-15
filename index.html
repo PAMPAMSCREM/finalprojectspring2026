@@ -93,6 +93,58 @@
             font-size: 0.8rem;
             opacity: 0.8;
         }
+
+		.topnav {
+			position: fixed;
+			top: 0;
+			width: 100%;
+			z-index: 1000;
+			background-color: rgb(33, 34, 39);
+			overflow: hidden;
+		}
+
+		.topnav a {
+			float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+			font-family: "Google Sans Flex", sans seif;
+		}
+
+		.top nav a:hover {
+			background-color: rgb(189, 212, 231);
+			color: rgb(33, 34, 39); /*SHADOW GREY*/
+			border-radius: 20px /*MAKES ROUNDED EDGES*/
+		}
+
+		.topnav a.active {
+			background-color: #04AA6D;
+			color: white;
+		}
+
+		.icon {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			min-width: 40px;
+			max-width: 40px;
+			height: 40px;
+			border-radius: 100%;
+			background-color: white;
+			color: var(--defaultBackground);
+		}
+		.info {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin-left: 10px;
+			color: white;
+			font-weight: bold;
+		}
+		
     </style>
 </head>
 
