@@ -8,6 +8,8 @@
 /* FONTS */
 
 body {
+	display: flex;
+	flex-direction: column;
 	background-color: rgb(33, 34, 39); /*SHADOW GREY*/
 }
 
