@@ -51,20 +51,6 @@ h1 {
 	flex-wrap: nowrap; /* So it doesn't stack, keeps it side by side! */
     }
 
-.col-8 {
-	background-color: white; /* Sets a light background */
-     /*border: 2px solid ; ReMOVe LATEr */
-    padding: 20px;
-	margin-left: 30px;
-}
-
-.col-4 {
-	background-color: #ffe6ff; /* Sets a light background */
-    border: 4px solid #ff00d9; /* ReMOVE LATER */
-    padding: 20px;
-	margin-right: 30px;
-}
-
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -79,31 +65,10 @@ h1 {
   display: none;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: rgb(189, 212, 231); /*PALE SKY*/
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgb(33, 34, 39); /*SHADOW GREY*/
 }
 
 /* Caption text */
@@ -126,18 +91,6 @@ h1 {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: rgb(134, 147, 171); /*LAVENDER GREY*/
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
 .active, .dot:hover {
   background-color: rgb(99, 112, 116); /*DIM GREY*/
 }
@@ -156,8 +109,12 @@ h1 {
 
 /*TOP NAVIGATION BAR*/
 .topnav {
-  background-color: rgb(33, 34, 39); /*SHADOW GREY*/
-  overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000; /* High number to ensure it's on top */
+	background-color: rgb(33, 34, 39); /* shadow grey */
+	overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
