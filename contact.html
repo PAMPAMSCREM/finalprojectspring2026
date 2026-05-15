@@ -1,0 +1,117 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Outfit';
+        background: linear-gradient(#ffdad5, #fff7f9);
+      }
+
+      .contact-container {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .contact-left {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+      }
+
+      .contact-left-title h2 {
+        font-weight: 600;
+        color: #a363aa;
+        font-size: 40px;
+        margin-bottom: 5px;
+      }
+
+      .contact-left-title hr {
+        border: none;
+        width: 120px;
+        height: 5px;
+        background-color: ;
+      }
+
+      .contact-inputs {
+        width: 400px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding-left: 25px;
+        font-weight: 500;
+        color: #666;
+        border-radius: 50px;
+      }
+
+      .contact-left textarea {
+        height: 140px;
+        padding-top: 15px;
+        border-radius: 20px;
+      }
+
+      .contact-inputs:focus{
+        border: 2px solid #ff994f;
+      }
+
+      .contact-inputs::placeholder {
+        color: #a9a9a9;
+      }
+
+      .contact-left buttom {
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        font-size: 16px;
+        color: #fff;
+        gap: 10px;
+        border: none;
+        border-radius: 50px;
+        background: linear-gradient(270deg, #ff994f, #fa6d86);
+        cursor: pointer;
+      }
+
+      .contact-left buttom img {
+        height: 15px;
+      }
+
+      .contact-right img {
+        width: 500px;
+      }
+
+      @media (max-width:800px) {
+        .contact-inputs {
+          width: 80vw;
+        }
+      }
+    </style>
+  </head>
+
+<body>
+  <div class="contact-container">
+    <form action="" class="contact-left">
+      <div class="contact-left-title">
+        <h2>Get in touch</h2>
+        <hr>
+      </div>
+      <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+      <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+      <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="contact-right">
+      <img src="/assets/...png" alt="">
+  </div>
+</body>
+</html>
