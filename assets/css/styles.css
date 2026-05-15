@@ -5,7 +5,10 @@
 }
 */
 
-/* FONTS */
+header {
+	display: block;
+	float: none;
+}
 
 body {
 	display: flex;
