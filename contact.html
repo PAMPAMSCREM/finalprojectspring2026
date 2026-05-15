@@ -13,7 +13,7 @@
 
       body {
         font-family: 'Outfit';
-        background: linear-gradient(#ffdad5, #fff7f9);
+        background: linear-gradient(#8693ab, #637074); /* LAVENDER GREY AND DIM GREY */
       }
 
       .contact-container {
@@ -32,7 +32,7 @@
 
       .contact-left-title h2 {
         font-weight: 600;
-        color: #a363aa;
+        color: #aab9cf; /*POWDER BLUE*/
         font-size: 40px;
         margin-bottom: 5px;
       }
@@ -62,7 +62,7 @@
       }
 
       .contact-inputs:focus{
-        border: 2px solid #ff994f;
+        border: 2px solid #aab9cf; /* POWDER BLUE */
       }
 
       .contact-inputs::placeholder {
@@ -94,24 +94,28 @@
         .contact-inputs {
           width: 80vw;
         }
+        .contact-right {
+          display: none;
+        }
       }
     </style>
   </head>
 
 <body>
   <div class="contact-container">
-    <form action="" class="contact-left">
+    <form action="http://api.web3forms.com/submit"  method="POST" class="contact-left">
       <div class="contact-left-title">
         <h2>Get in touch</h2>
         <hr>
       </div>
+      <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
       <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
       <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
       <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
       <button type="submit">Submit</button>
     </form>
     <div class="contact-right">
-      <img src="/assets/...png" alt="">
+      <img src="https://i.pinimg.com/736x/2e/48/47/2e48478b801719e0b45885255aa878be.jpg" alt="">
   </div>
 </body>
 </html>
